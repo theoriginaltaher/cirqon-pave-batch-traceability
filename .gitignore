@@ -1,0 +1,12 @@
+# Local QA and browser artifacts
+work/
+
+# Optional QR tool dependencies
+tools/node_modules/
+
+# QR codes must be generated with the final deployed URL
+qr/*.png
+
+# Operating system files
+.DS_Store
+Thumbs.db
